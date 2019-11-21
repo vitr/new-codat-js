@@ -1,0 +1,49 @@
+{
+  "name": "@vitr/new-codat-js",
+  "version": "2.2.10",
+  "description": "Client Library for Codat accounting data API",
+  "main": "codat.js",
+  "scripts": {
+    "test": "standard 'src/**/*.js'",
+    "build": "node ./node_modules/rollup/bin/rollup -c"
+  },
+  "keywords": [
+    "codat",
+    "accounting",
+    "data",
+    "api"
+  ],
+  "author": "vitr <vit@vitr.com.au> (https://vitr.com.au)",
+  "license": "Apache2",
+  "repository": "https://github.com/vitr/new-codat-js",
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "request": "^2.34",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "mocha": "^3.5.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^4.0.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "should": "^11.2.1",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach",
+      "API_CLIENT",
+      "should",
+      "uat"
+    ]
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }  
+}
