@@ -43,6 +43,5 @@
       "should",
       "uat"
     ]
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }  
+  }
 }
