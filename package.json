@@ -14,8 +14,7 @@
     "api"
   ],
   "author": "vitr <vit@vitr.com.au> (https://vitr.com.au)",
-  "license": "Apache2",
-  "repository": "https://github.com/vitr/new-codat-js",
+  "license": "Unlicense",
   "dependencies": {
     "btoa": "^1.1.2",
     "request": "^2.34",
